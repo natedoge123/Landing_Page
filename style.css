@@ -1,0 +1,92 @@
+/* style.css */
+
+/* Header Section */
+
+.header-container {
+  display: flex;
+  flex: 1;
+  flex-direction: horizontal;
+  background: CadetBlue;
+  width: 90%;
+  height: 250px;
+  flex-align: center;
+}
+
+.header-container div {
+  flex: 1;
+}
+
+/* Background Section */
+
+.background-container {
+  display: flex;
+  background: CadetBlue;
+  width: 90%;
+}
+
+/* Picture Section */
+
+.picture-container {
+  display: flex;
+  background: DarkGrey;
+  width: 90%;
+  gap: 10% 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.picture-container h3 {
+  width: 90%;
+  text-align: center;
+}
+
+.picture-container img{
+  height: 200px;
+  width: 200px;
+  border: 4px solid Coral;
+  border-radius: 10%;
+}
+
+.picture-container p{
+  text-align: center;
+}
+
+/* Quote Section */
+
+.quote-container {
+  display: flex;
+  background: Coral;
+  width: 90%;
+  justify-content: center;
+  
+}
+
+.quote-contianer h3 {
+  text-align: center;
+
+}
+
+.quote-container h4 {
+  text-align: right;
+}
+/* Call to action Section */
+
+.call-container {
+  display: flex;
+  background: MintCream;
+  width: 90%;
+  
+}
+
+/* Copyright Section  */
+
+.copyright-container {
+  display: flex;
+  background: CadetBlue;
+  width: 90%;
+  justify-content: center;
+}
+
+.copyright-container div {
+
+}
