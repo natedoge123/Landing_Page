@@ -8,12 +8,16 @@
   flex-direction: horizontal;
   background: CadetBlue;
   width: 90%;
-  height: 250px;
+  height: 5%;
   flex-align: center;
 }
 
 .header-container div {
   flex: 1;
+}
+
+.header-container .one {
+  width: 50%;
 }
 
 /* Background Section */
@@ -22,6 +26,15 @@
   display: flex;
   background: CadetBlue;
   width: 90%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.background-container img {
+  width: 50%;
+  height: 50%;
+
 }
 
 /* Picture Section */
@@ -36,7 +49,7 @@
 }
 
 .picture-container h3 {
-  width: 90%;
+  width: 100%;
   text-align: center;
 }
 
@@ -73,9 +86,18 @@
 
 .call-container {
   display: flex;
-  background: MintCream;
+  background: DarkGrey;
   width: 90%;
-  
+  height: 75px;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column:
+}
+
+.call-contianer p {
+  background-color: Coral;
+  border-radius: 50%; 
+  color: blue;
 }
 
 /* Copyright Section  */
